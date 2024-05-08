@@ -1,7 +1,7 @@
 const teamMembers = [
   {
     name: 'Lionel Messi',
-    img: 
+    img: MediaSession.jpg,
     age: 36,
     activelyPlaying: true,
     position: 'Forward',
