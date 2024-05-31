@@ -1,6 +1,6 @@
 const teamMembers = [
   {
-    name: 'Lionel Messi',
+    name: 'Naomi Campbell',
     img: MediaSession.jpg,
     age: 36,
     activelyPlaying: true,
@@ -12,8 +12,128 @@ const teamMembers = [
       'Lionel Messi is considered one of the greatest football players of all time...'
   },
   {
-    name: 'Lionel Messi Jr.',
+    name: 'Cindy Crawford',
     position: 'Defender',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Adriana Lima',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Gisele Bundchen',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Yasmeen Ghauri',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Janice Dickinson',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Claudia Schiffer',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Shalom Harlow',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Heidi Klum',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Kendall Jenner',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Cara Delevingne',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+  },
+  {
+    name: 'Taylor Hill',
+    img: MediaSession.jpg,
+    age: 36,
+    activelyPlaying: true,
+    position: 'Forward',
     skills: ['Dribbling', 'Shooting', 'Passing'],
     strengths: 'Ball control',
     weaknesses: 'Heading Ability',
@@ -34,7 +154,7 @@ function generateTeamCards() {
 
     switch (member.position.toLowerCase()) {
       case 'forward':
-        backgroundColor = '#ffc107' // Yellow for forwards
+        backgroundColor = '#FFB6C1' // Yellow for forwards
         break
       case 'midfielder':
         backgroundColor = '#28a745' // Green for midfielders

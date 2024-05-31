@@ -1,0 +1,17 @@
+body {
+    background-color: #FFB6C1;
+}
+
+.title {
+    margin-top: 10%;
+}
+
+h1 {
+    font-family: "Petit Formal Script", cursive;
+    text-align: center;
+
+}
+
+.row {
+    margin-top: 5%;
+}
