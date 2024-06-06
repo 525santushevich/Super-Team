@@ -160,7 +160,7 @@ function generateTeamCards() {
         backgroundColor = '#28a745' // Green for midfielders
         break
       case 'defender':
-        backgroundColor = '#007bff' // Blue for defenders
+        backgroundColor = 'pic' // Blue for defenders
         break
       case 'goalkeeper':
         backgroundColor = '#dc3545' // Red for goalkeepers
