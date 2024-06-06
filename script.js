@@ -2,7 +2,7 @@ const teamMembers = [
   {
     name: 'Naomi Campbell',
     img: MediaSession.jpg,
-    age: 36,
+    age: 54,
     activelyPlaying: true,
     position: 'Forward',
     skills: ['Dribbling', 'Shooting', 'Passing'],
