@@ -1,11 +1,23 @@
 const teamMembers = [
   {
     name: 'Naomi Campbell',
+<<<<<<< HEAD
     age: 54,
     retired: false,
     brands: ['Versace', 'Valentino', 'Chanel'],
     bestQuality: 'Catwalk presence',
     biography: 'Naomi Campbell is a British supermodel, actress, and businesswoman. She began her career at the age of 15 and has become one of the most recognizable and in-demand models of the past four decades.'
+=======
+    img: MediaSession.jpg,
+    age: 54,
+    activelyPlaying: true,
+    position: 'Forward',
+    skills: ['Dribbling', 'Shooting', 'Passing'],
+    strengths: 'Ball control',
+    weaknesses: 'Heading Ability',
+    biography:
+      'Lionel Messi is considered one of the greatest football players of all time...'
+>>>>>>> 98703f786b5cdf6d18d027391e5473630187afbd
   },
   {
     name: 'Cindy Crawford',
@@ -130,4 +142,8 @@ function generateTeamCards() {
   })
 }
 
+<<<<<<< HEAD
 window.onload = generateTeamCards
+=======
+window.onload = generateTeamCards()
+>>>>>>> 98703f786b5cdf6d18d027391e5473630187afbd
