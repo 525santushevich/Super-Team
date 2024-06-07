@@ -3,15 +3,20 @@ body {
 }
 
 .title {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 h1 {
-    font-family: "Petit Formal Script", cursive;
+    font-family: "Oleo Script", system-ui;
     text-align: center;
+    color: rgb(163, 8, 98);
 
 }
 
 .row {
     margin-top: 5%;
+}
+
+.card-header {
+    color: rgb(163, 8, 98);
 }
